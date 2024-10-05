@@ -1,9 +1,108 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Directory</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+      }
+      header {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 3em;
+      }
+      .container {
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+      }
+      h2 {
+        color: #343a40;
+        font-size: 1.5em;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      table, th, td {
+        border: 1px solid #ddd;
+      }
+      th, td {
+        padding: 12px;
+        text-align: left;
+      }
+      th {
+        background-color: #343a40;
+        color: white;
+      }
+      .cat-pic {
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+      }
+      a {
+        color: #007bff;
+      }
+    </style>
   </head>
   <body>
-    <h1>Cat Directory</h1>
-    <h2>Add your contributions by making a pull request to <a href="https://github.com/aaishikasb/ghw-demo-2024/">https://github.com/aaishikasb/ghw-demo-2024/</a>.</h2>
+    <header>
+      <h1>Cat Directory</h1>
+      <h2>Add your contributions by making a pull request to 
+        <a href="https://github.com/aaishikasb/ghw-demo-2024/" target="_blank">
+          GitHub Repository
+        </a>
+      </h2>
+    </header>
+
+    <div class="container">
+      <h2>Meet the Cats</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Picture</th>
+            <th>Name</th>
+            <th>Breed</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="https://placekitten.com/100/100" alt="Fluffy" class="cat-pic"></td>
+            <td>Fluffy</td>
+            <td>Persian</td>
+            <td>A gentle and quiet cat with long, beautiful fur.</td>
+          </tr>
+          <tr>
+            <td><img src="https://placekitten.com/100/101" alt="Mittens" class="cat-pic"></td>
+            <td>Mittens</td>
+            <td>Maine Coon</td>
+            <td>A large, affectionate cat known for its playful personality.</td>
+          </tr>
+          <tr>
+            <td><img src="https://placekitten.com/100/102" alt="Shadow" class="cat-pic"></td>
+            <td>Shadow</td>
+            <td>Siamese</td>
+            <td>Active, social, and loves to "talk" with their human companions.</td>
+          </tr>
+          <tr>
+            <td><img src="https://placekitten.com/100/103" alt="Bella" class="cat-pic"></td>
+            <td>Bella</td>
+            <td>Ragdoll</td>
+            <td>A loving and calm cat that enjoys cuddles and attention.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
